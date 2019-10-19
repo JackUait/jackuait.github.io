@@ -1,0 +1,42 @@
+.data-input {
+    border: 18px solid rgba($color: #ffffff, $alpha: 0.5);
+    max-width: 540px;
+    margin: 3em auto;
+    transition: all 0.3s;
+}
+
+.data-input__textarea,
+.data-input__selector {
+    border: 0;
+}
+
+.data-input__textarea {
+    padding: 1.25em 1.375em;
+    color: #2d2d2d;
+}
+
+.data-input__textarea::placeholder {
+    color: #2d2d2d;
+    font-size: 1.125rem;
+    opacity: 0.8;
+}
+
+.data-input__selector {
+    background-color: $button-color;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1.22em;
+}
+
+.data-input__button {
+    background-color: $button-color;
+    border-left: 1px solid #fff;
+}
+
+.data-input__button a {
+    font-size: 0.875rem;
+    display: inline-block;
+    padding: 1.85em 1.2857em 1.2857em;
+    color: $main-color;
+    font-weight: 700;
+}

@@ -1,0 +1,39 @@
+.button {
+    font-size: 1.125rem;
+    background: transparent;
+    color: $main-color;
+    max-width: 155px;
+    border: 3px solid $main-color;
+    padding: 1.22em 3.11em;
+    transition: 0.3s ease-in;
+}
+
+.button--yellow {
+    transition: all 0.5s;
+}
+
+.button--yellow:hover {
+    background-color: #fdd700;
+}
+
+.button--left:hover {
+    color: $secondary-color;
+    background: $main-color;
+}
+
+.button--right:hover {
+    color: $button-color;
+    background: $main-color;
+}
+
+.button--pricing {
+    min-width: 240px;
+    background-color: $button-color;
+    color: $secondary-color;
+    margin-bottom: 5em;
+}
+
+.button--pricing:hover {
+    color: $main-color;
+    background-color: $secondary-color;
+}

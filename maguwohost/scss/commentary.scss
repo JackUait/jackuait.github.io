@@ -1,0 +1,49 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentary {
+    font-size: 0.875rem;
+    position: relative;
+    max-width: 370px;
+    background: $commentary-bg-color;
+    font-family: $secondary-font;
+    margin-bottom: 5em;
+}
+
+.commentary__body {
+    color: #a4a4a4;
+    font-style: italic;
+    padding: 30px 32px 64px 21px;
+}
+
+.commentary__name {
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+    color: $commentary-font-color;
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.commentary__avatar {
+    position: absolute;
+    left: 250px;
+    bottom: -50px;
+}
+
+@media (min-width: 48em) {
+    .comments {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .commentary {
+        margin: 3.125em 2em 7.5em 0;
+    }
+    .comments__header {
+        display: none;
+    }
+}
