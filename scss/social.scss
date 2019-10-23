@@ -1,12 +1,20 @@
-.social > .fab {
-    font-size: 2rem;
-    color: $button-color;
-    cursor: pointer;
-    margin-right: 1em;
+.social {
+    display: inline-block;
 }
 
-@media (min-width: 64em) {
-    .social > .fab {
-        font-size: 1.125rem;
+.social__item {
+    display: inline-block;
+    padding: 16px 14px;
+    background-color: #fff;
+}
+
+.social__item:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+@media (min-width: 976px) {
+    .social__item {
+        padding: 8px 6px;
     }
 }

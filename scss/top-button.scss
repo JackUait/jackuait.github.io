@@ -1,0 +1,11 @@
+.top-button__image {
+    display: inline-block;
+    background-color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.top-button__image:hover {
+    background-color: rgba($color: #fff, $alpha: 0.8)
+}

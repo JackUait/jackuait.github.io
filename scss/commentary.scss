@@ -1,49 +1,86 @@
-.comments {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .commentary {
-    font-size: 0.875rem;
-    position: relative;
-    max-width: 370px;
-    background: $commentary-bg-color;
-    font-family: $secondary-font;
-    margin-bottom: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 300px;
+    max-width: 955px;
+    border: 1px solid $second-font-color;
+    transition: all 0.3s;
 }
 
 .commentary__body {
-    color: #a4a4a4;
-    font-style: italic;
-    padding: 30px 32px 64px 21px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+
+}
+
+.commentary__photo {
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+
 }
 
 .commentary__name {
-    position: absolute;
-    left: 25px;
-    bottom: 30px;
-    color: $commentary-font-color;
-    font-family: $main-font;
-    font-weight: 700;
+    color: rgba($color: $second-font-color, $alpha: 0.9);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+
 }
 
-.commentary__avatar {
-    position: absolute;
-    left: 250px;
-    bottom: -50px;
+.commentary__annotation {
+    color: rgba($color: $second-font-color, $alpha: 0.9);
+    font-style: italic;
+    transition: all 0.3s;
+
 }
 
-@media (min-width: 48em) {
-    .comments {
-        flex-direction: row;
-        flex-wrap: wrap;
+.commentary__text {
+    color: rgba($color: $second-font-color, $alpha: 0.6);
+    max-width: 570px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+
+}
+
+@media (min-width: 576px) {
+    .commentary {
+        display: flex;
         justify-content: center;
     }
-    .commentary {
-        margin: 3.125em 2em 7.5em 0;
+    .commentary__body {
+        margin: 85px 10px 40px 30px;
     }
-    .comments__header {
-        display: none;
+    .commentary__photo {
+        margin-top: 85px;
+        margin-left: 30px;
     }
 }
+
+@media (min-width: 768px) {
+    .commentary__body {
+        margin-right: 75px;
+    }
+}
+
+@media (min-width: 992px) {
+    .commentary {
+        text-align: left;
+    }
+    .commentary__photo {
+        margin-left: 120px;
+    }
+    .commentary__text {
+        margin-bottom: 60px;
+    }
+    .carousel {
+        text-align: center;
+    }
+}
+

@@ -1,39 +1,28 @@
 .button {
-    font-size: 1.125rem;
-    background: transparent;
-    color: $main-color;
-    max-width: 155px;
-    border: 3px solid $main-color;
-    padding: 1.22em 3.11em;
-    transition: 0.3s ease-in;
+    background-color: transparent;
+    border: 1px solid $main-font-color;
+    color: $main-font-color;
+    padding: 19px 47px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    font-weight: bold;
+    transition: all 0.4s;
 }
 
-.button--yellow {
-    transition: all 0.5s;
+.button:hover,
+.button:focus {
+    background-color: #fff;
+    padding: 20px 48px;
+    border: 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.button--yellow:hover {
-    background-color: #fdd700;
+.contact-form__button {
+    border: 0;
+    margin: 0 auto;
+    background-color: #fff;
 }
 
-.button--left:hover {
-    color: $secondary-color;
-    background: $main-color;
-}
-
-.button--right:hover {
-    color: $button-color;
-    background: $main-color;
-}
-
-.button--pricing {
-    min-width: 240px;
-    background-color: $button-color;
-    color: $secondary-color;
-    margin-bottom: 5em;
-}
-
-.button--pricing:hover {
-    color: $main-color;
-    background-color: $secondary-color;
+.contact-form__button:hover {
+    padding: 23px 10px;
 }

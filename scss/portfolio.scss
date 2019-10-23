@@ -1,0 +1,16 @@
+.portfolio {
+    min-height: 900px;
+    margin-bottom: 100px;
+}
+
+.portfolio__header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+    .portfolio__header {
+        margin-top: 150px;
+    }
+}

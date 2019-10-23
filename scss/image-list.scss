@@ -1,0 +1,44 @@
+.image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    justify-content: center;
+    gap: 30px;
+    transition: all 0.3s;
+}
+
+.image-list__item {
+    background-image: url(../img/maguwohost.png);
+    background-size: cover;
+    width: 280px;
+    height: 210px;
+    transition: all 0.5s;
+}
+
+.image-list__item:hover {
+    transform: scale(1.05);
+    box-shadow: rgba($color: #000000, $alpha: 1.0) 10px 20px;
+}
+
+.image-list__item_theme_blank {
+    text-align: center;
+    display: table-cell; 
+    vertical-align: middle;
+    background-image: none;
+    background-color: $main-bg-color;
+}
+
+.image-list__text {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+    .image-list {
+        grid-template-columns: repeat(auto-fit, 370px);
+    }
+    .image-list__item {
+        width: 370px;
+        height: 290px;
+    }
+}

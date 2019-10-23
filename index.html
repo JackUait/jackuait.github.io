@@ -2,175 +2,189 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:700|Raleway:400,600,700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,700|Lato:300,400|Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8ac29f661d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 </head>
-<body>
-    <div class="container">
-        <div id="top-point"></div>
-        <div class="big-screens big-screens--nav">
-            <div class="flex flex--center" id="flex-image"><img src="./img/logo.png" class="logo" alt="logo"></div>
-            <ul class="nav uppercased flex flex--space-around">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Domain</a></li>
-                <li><a href="#">Hosting</a></li>
-            </ul>
-            <div class="call-form">
-                <p class="call-form--sign">Do you need help ? Just Email, Live chat or Call us</p>
-                <button class="call-form--button button--yellow">Live Chat</button>
-                <span class="call-form--number">6284-6534</span>
+<body class="page">
+    <div class="header-bg" id="home">
+        <header class="header content">
+            <div class="logo header__logo">
+                <div class="logo__image"><img class="logo_image" src="./img/logo_image.png" alt="Pyatkov Logo"></div>
+                <div class="logo__sign">Pyatkov</div>
+                <div class="logo__subsign">Web Developer</div>
             </div>
-        </div>
-        <header class="hero">
-            <h1 class="hero--header centered-text">Just a Proffesional Web Hosting Services </h1>
-            <h3 class="hero--subheader centered-text">modern - fast - reliable</h3>
-            <img src="./img/hero_image.png" class="hero--image" alt="">
-            <div class="data-input flex">
-                <input class="data-input__textarea" type="text" placeholder="Your Domain Name..."/><!--
-                --><select class="data-input__selector">
-                    <option value="com">.com</option>
-                    <option value="ru">.ru</option>
-                    <option value="ua">.ua</option>
-                    <option value="jp">.jp</option>
-                    <option value="edu">.edu</option>
-                </select>
-               <form action="action.php" class="data-input__button">
-                   <a href="#" class="centered-text">Check Availability</a>
-               </form>
-            </div>
-        </header>
-        <div class="info flex">
-            <div class="info__block info__block--left">
-                <div class="info__block__picture info__block__picture--left"><img src="./img/about_picture.png"/></div>
-                <h2 class="info__block__header">#1 Webhost Services</h2>
-                <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <button class="button button--left">More</button>
-            </div>
-            <div class="info__block info__block--right">
-                <div class="info__block__picture info__block__picture--right">.com</div>
-                <h2 class="info__block__header">#1 Domain Services</h2>
-                <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <button class="button button--right">More</button>
-            </div>
-        </div>
-        <div class="features--bg"> 
-            <div class="features__header__container">
-                <h1 class="features__header">Our Features</h1>
-                <h3 class="features__subheader">Our Best Features</h3>
-            </div>
-            <div class="features">
-                <div class="info__block info__block--feature">
-                    <div class="info__block__picture"><img src="./img/one_features.png" alt="Live Support"></div>
-                    <span class="info__block__underline"></span>
-                    <h6 class="info__block__header info__block__header--medium">Live Support</h6>
-                    <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
-                </div>
-                <div class="info__block info__block--feature">
-                    <div class="info__block__picture"><img src="./img/two_features.png" alt="Cloud Technology"></div>
-                    <span class="info__block__underline"></span>
-                    <h6 class="info__block__header info__block__header--medium">Cloud Technology</h6>
-                    <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
-                </div>
-                <div class="info__block info__block--feature">
-                    <div class="info__block__picture"><img src="./img/three_features.png" alt="Database"></div>
-                    <span class="info__block__underline"></span>
-                    <h6 class="info__block__header info__block__header--medium">Hi Tech Database</h6>
-                    <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
-                </div>
-                <div class="info__block info__block--feature">
-                    <div class="info__block__picture"><img src="./img/four_features.png" alt="Live Monitoring"></div>
-                    <span class="info__block__underline"></span>
-                    <h6 class="info__block__header info__block__header--medium">Live Monitoring</h6>
-                    <p class="info__block__body">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="clients--bg">
-            <div class="clients__header clients__header--outside">
-                    <h6 class="info__block__header info__block__header--black ">Our Clients</h6>
-                    <p class="info__block_body info__block__body--gray centered-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p>
-            </div>
-            <div class="clients">  
-                <div class="clients__header clients__header--inside">
-                        <h6 class="info__block__header info__block__header--black clients__sign">Our Clients</h6>
-                        <p class="info__block_body info__block__body--gray clients__subsign">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.</p>
-                </div>
-                <div class="clients__picture">
-                    <img src="./img/one_client.png" class="clients__picture--big" alt="First Client">
-                </div>
-                <div class="clients__picture">
-                    <img src="./img/two_client.png" class="clients__picture--big" alt="Second Client">
-                </div>
-                <div class="clients__picture">
-                    <img src="./img/three_client.png" class="clients__picture--big " alt="Third Client">
-                </div>
-                <div class="clients__picture">
-                    <img src="./img/four_client.png" class="clients__picture--big" alt="Fourth Client">
-                </div>
-            </div>
-        </div>
-        
-        <div class="comments">
-            <h6 class="info__block__header info__block__header--black comments__header">Comments</h6>                 
-            <div class="commentary">
-                    <p class="commentary__body">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-                    <span class="commentary__name">-Anna</span>
-                    <img src="./img/anna_face.png" alt="Anna" class="commentary__avatar">
-            </div>
-            <div class="commentary">
-                <p class="commentary__body">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-                <span class="commentary__name">-Anna</span>
-                <img src="./img/anna_face.png" alt="Anna" class="commentary__avatar">
-            </div>
-            <div class="commentary">
-                <p class="commentary__body">“ This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. ”</p>
-                <span class="commentary__name">-Anna</span>
-                <img src="./img/anna_face.png" alt="Anna" class="commentary__avatar">
-            </div>
-        </div>
-        <div class="pricing">
-            <div class="pricing__header--container">
-                <h2 class="pricing__header">Do you want to view Plans & Pricing ?</h2>
-                <h4 class="pricing__subheader pricing__subheader--right">Follow the button in the right section.</h4>
-                <h4 class="pricing__subheader pricing__subheader--bottom">Follow the button in the bottom section.</h4>
-            </div>
-            <div class="button--container"> 
-                <button class="button button--pricing">Plans & Pricing</button>
-            </div>
-        </div>
-        <footer class="flex">
-            <div class="left-side">
-                <img src="./img/map.png" class="map" alt="map">
-                <img src="./img/footer_logo.png" alt="logo">
-                <p>Copyright 2014 Maguwohost by FikriStudio</p>
-            </div>
-            <div class="flex right-side">
-                <h6 class="footer__header">Navigation</h6>
-                <ul class="nav--footer flex">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Domain</a></li>
-                    <li><a href="#">Hosting</a></li>
-                    <li><a href="#">Contact</a></li>
+            <div class="nav">
+                <i class="nav__icon fas fa-bars"></i>
+                <ul class="nav__list">
+                    <li class="nav__item nav__item_active"><a href="#home">Home</a></li>
+                    <li class="nav__item"><a href="#about">About</a></li>
+                    <li class="nav__item"><a href="#skills">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="social flex">
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-google-plus-g"></i>
-                </div>
-                <a  href="#top-point" class="top-link">Back to Top</a>
             </div>
-            
+            <div class="name">
+                <div class="name__header">Evgeniy Pyatkov</div>
+                <div class="name__subheader">Not a Really Professional Web Developer</div>
+            </div>
+            <div class="button-section header__button-section">
+                <a href="#about"><button class="button header__button">Know More</button></a>
+                <a href="#contact"><button class="button header__button header__button_second">Hire Me</button></a>
+            </div>
+            <div class="face"><img class="face__image" src="./img/face.png" alt="It's a me Mario!"></div>
+        </header>
+    </div>
+    <div class="about" id="about">
+        <div class="info">
+            <h1 class="section-header section-header_fixed-size about__header"><span class="section-header__overline">Kn</span>ow More About Me</h1>
+            <p class="info__text about__text">My entire life was connected with programming and English. I fell in love with programming and English from the first time I knew what this is. But there's one more thing I love even more than programming and English - people. Every person is different and all of them have an interesting story of their lives. So my point in programming is to make people life easier and maybe a little bit happier.</p>
+            <button class="button about__button">Download my CV</button>
+        </div>
+        <div class="about__image"><img src="./img/about.png" alt="It's a me Mario!"></div>
+    </div>
+    <div class="skills-bg">
+        <div class="skills" id="skills">
+            <h1 class="section-header skills__header">My <span class="section-header__overline">Sk</span>ills</h1>
+            <div class="figure-list">
+                <figure class="figure-list__item figure-list__item_theme_purple">
+                    <i class="figure-list__image fab fa-bootstrap"></i>
+                    <span class="figure-list__sign">Bootstrap</span>
+                </figure>
+                <figure class="figure-list__item figure-list__item_theme_blue">
+                    <i class="figure-list__image fas fa-shower"></i>
+                    <span class="figure-list__sign">Clean Code</span>
+                </figure>
+                <figure class="figure-list__item figure-list__item_theme_pink">
+                    <i class="figure-list__image fab fa-sass"></i>
+                    <span class="figure-list__sign">Sass</span> 
+                </figure>          
+                <figure class="figure-list__item figure-list__item_theme_dark-blue">
+                    <i class="figure-list__image fas fa-cubes"></i>
+                    <span class="figure-list__sign">BEM</span>
+                </figure>
+                <figure class="figure-list__item figure-list__item_theme_yellow">
+                    <i class="figure-list__image fab fa-js-square"></i>
+                    <span class="figure-list__sign">JavaScript</span>
+                </figure>
+                <figure class="figure-list__item figure-list__item_theme_light_red">
+                    <i class="figure-list__image fab fa-git"></i>
+                    <span class="figure-list__sign">Git</span>
+                </figure>
+                <figure class="figure-list__item figure-list__item_theme_orange">
+                    <i class="figure-list__image fab fa-html5"></i>
+                    <span class="figure-list__sign">HTML5</span>
+                </figure>
+                <div class="figure figure-list__item figure-list__item_theme_darker-blue">
+                    <i class="figure-list__image fab fa-css3"></i>
+                    <span class="figure-list__sign">CSS3</span>
+                </div>
+                <div class="figure figure-list__item figure-list__item_theme_red">
+                    <i class="figure-list__image fab fa-gulp"></i>
+                    <span class="figure-list__sign">Gulp</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio content" id="portfolio">
+        <h1 class="section-header portfolio__header">por<span class="section-header__overline">tf</span>olio</h1>
+        <div class="image-list">
+            <a href="./pages/maguwohost/index.html">
+                <div class="image-list__item"></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+            <a href="#">
+                <div class="image-list__item image-list__item_theme_blank"><span class="image-list__text">Soon</span></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <h1 class="section-header testimonials__section-header">Testi<span class="section-header__overline">mo</span>nials</h1>
+        <div class="commentary testimonials__commentary">
+            <div class="commentary__photo"><img src="./img/one_customer.png" alt="customer"></div>
+            <div class="commentary__body">
+                <div class="commentary__name">Alexey Berezhnoy</div>
+                <div class="commentary__annotation">A creative guy</div>
+                <div class="commentary__text">I've seen some shit in this life and this site is the worst shit.</div>
+                <div class="carousel">
+                        <div class="carousel-item"></div>
+                        <div class="carousel-item carousel-item_active"></div>
+                        <div class="carousel-item"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="statistics">
+        <div class="figure-list figure-list_mode_statistics">
+            <div class="figure-list__item figure-list__item_theme_sawtooth-aak">
+                <i class="figure-list__image fas fa-bed"></i>
+                <span class="figure-list__number">2</span>
+                <span class="figure-list__sign figure-list__sign_mode_statistics">years without sleep</span>
+            </div>
+            <div class="figure-list__item figure-list__item_theme_green">
+                <i class="figure-list__image fas fa-book"></i>
+                <span class="figure-list__number">70</span>
+                <span class="figure-list__sign figure-list__sign_mode_statistics">programming books read</span>
+            </div>
+            <div class="figure-list__item figure-list__item_theme_summertime">
+                <i class="figure-list__image fas fa-tasks"></i>
+                <i class="figure-list__number figure-list__number_type_img fas fa-infinity"></i>
+                <span class="figure-list__sign figure-list__sign_mode_statistics">finished project</span>
+            </div>
+            <div class="figure-list__item figure-list__item_theme_deep-rose">
+                <i class="figure-list__image fas fa-coffee"></i>
+                <span class="figure-list__number">720</span>
+                <span class="figure-list__sign figure-list__sign_mode_statistics">cups of tea</span>
+            </div>
+        </div>
+    </div>
+    <div class="blank-space"></div>
+    <div class="footer-bg ">
+        <footer class="footer" id="contact">
+            <h1 class="section-header section-header_theme_white footer__section-header">say <span class="section-header__overline section-header__overline_theme_white">he</span>llo!</h1>
+            <form class="contact-form footer__contact-form" action="handler.php">
+                <div class="contact-form__body">
+                    <input class="contact-form__item contact-form__item_first footer__contact-form__item" placeholder="Name"></input>
+                    <input class="contact-form__item footer__contact-form__item" placeholder="Email"></input>
+                </div>
+                <textarea class="contact-form__item contact-form__item_size_xs footer__contact-form__item" placeholder="Message"></textarea>
+                <button class="button contact-form__button contact-form__item">Send</button>
+            </form>
+            <div class="separator footer__separator"></div>
+            <div class="social footer__social">
+                <div class="social__item">
+                    <a href="https://vk.com/jackuait" target="_blank"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+            <a class="top-button footer__top-button" href="#home" ><i class="top-button__image fas fa-chevron-up"></i></a>
         </footer>
     </div>
     
+    <script src="./js/main.js"></script>
 </body>
 </html>

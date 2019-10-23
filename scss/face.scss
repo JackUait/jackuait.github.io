@@ -1,0 +1,14 @@
+.face__image {
+    display: none;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    right: -30px;
+    bottom: -300px;
+}
+
+@media (min-width: 1200px) {
+    .face__image {
+        display: block;
+    }
+}

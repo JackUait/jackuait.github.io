@@ -1,0 +1,29 @@
+ .section-header {
+    color: rgba($color: $main-font-color, $alpha: 0.8);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 5.52px;
+    text-transform: uppercase;
+}
+
+.section-header__overline {
+    border-top: 4px solid rgba($color: $second-font-color, $alpha: 0.6);
+}
+
+.section-header_fixed-size {
+    max-width: 400px;
+}
+
+.section-header_theme_white {
+    color: #fff;
+}
+
+.section-header__overline_theme_white {
+    border-top: 4px solid rgba($color: #fff, $alpha: 0.6)
+}
+
+@media (min-width: 576px) {
+    .section-header {
+        font-size: 46px;
+    }
+}
