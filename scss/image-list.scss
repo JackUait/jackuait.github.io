@@ -1,6 +1,6 @@
 .image-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-columns: repeat(auto-fit, 190px);
     justify-content: center;
     gap: 30px;
     transition: all 0.3s;
@@ -9,8 +9,8 @@
 .image-list__item {
     background-image: url(../img/maguwohost.png);
     background-size: cover;
-    width: 280px;
-    height: 210px;
+    width: 190px;
+    height: 150px;
     transition: all 0.5s;
 }
 
@@ -32,6 +32,17 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    .image-list {
+        grid-template-columns: repeat(auto-fit, 280px);
+    }
+    .image-list__item {
+        width: 280px;
+        height: 210px;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .image-list {

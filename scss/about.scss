@@ -21,17 +21,24 @@
     margin: 0 10px;
 }
 
+.about__info {
+    margin: 0 auto;
+}
+
 @media (min-width: 450px) {
-    .about {
-        text-align: left;
-        margin-left: 30px;
-    }
     .about__header {
         margin-left: 10px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+    .about {
+        text-align: left;
+    }
+    .about__image {
+        display: block;
+        margin-left: 50px;
+    }
     .about {
         padding: 0;
         margin-left: 100px;
@@ -40,17 +47,7 @@
     .about__header {
         margin-top: 200px;
     }
-    
 }
-
-@media (min-width: 850px) {
-    .about__image {
-        display: block;
-        margin-left: 50px;
-    }
-}
-
-
 
 @media (min-width: 992px) {
     .about__image {

@@ -11,6 +11,7 @@
 }
 
 .section-header_fixed-size {
+    margin: 0 auto;
     max-width: 400px;
 }
 
@@ -25,5 +26,12 @@
 @media (min-width: 576px) {
     .section-header {
         font-size: 46px;
+    }
+}
+
+@media (min-width: 850px) {
+    .section-header_fixed-size {
+        margin: 0;
+        margin-top: 200px;
     }
 }
