@@ -1,0 +1,19 @@
+.carousel-item {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid $second-font-color;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.carousel-item_active {
+    background-color: $second-font-color;
+}
+
+@media (min-width: 992px) {
+    .carousel-item {
+        width: 16px;
+        height: 16px;
+    }
+}
