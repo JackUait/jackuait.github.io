@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Andika&display=swap");
+
+* {
+	outline: none;
+}
+
+body {
+	font-family: Andika, sans-serif;
+	background: #e5e9ec;
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.themeChanger {
+	display: flex;
+	flex-direction: column;
+}

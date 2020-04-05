@@ -1,0 +1,113 @@
+.figure-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+}
+
+
+
+.figure-list__item {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 30px 30px 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .figure-list {
+        grid-template-columns: repeat(auto-fit, 350px);
+    }
+    .figure-list_mode_statistics {
+        grid-template-columns: repeat(auto-fit, 250px);
+    }
+    .figure-list__item {
+        margin-bottom: 80px;
+    }
+}
+
+.figure-list__image {
+    font-size: 100px;
+}
+
+.figure-list__sign {
+    padding-top: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.figure-list__sign_mode_statistics {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+    min-width: 200px;
+}
+
+.figure-list__number {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.figure-list__number_type_img {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.figure-list__item_theme_blue:hover {
+    color: #3498db;
+}
+
+.figure-list__item_theme_purple:hover {
+    color: #8e44ad;
+}
+
+.figure-list__item_theme_pink:hover {
+    color: #f47cc3;
+}
+
+.figure-list__item_theme_red:hover {
+    color: #e74c3c;
+}
+
+.figure-list__item_theme_light_red:hover {
+    color: #fc5c65;
+}
+
+.figure-list__item_theme_yellow:hover {
+    color: #fed330;
+}
+
+.figure-list__item_theme_dark-blue:hover {
+    color: #34495e;
+}
+
+.figure-list__item_theme_orange:hover {
+    color: #fa8231;
+}
+
+.figure-list__item_theme_darker-blue:hover {
+    color: #1b73ba;
+}
+
+.figure-list__item_theme_green:hover {
+    color: #2ecc71;
+}
+
+.figure-list__item_theme_sawtooth-aak:hover {
+    color: #f19066;
+}
+
+.figure-list__item_theme_summertime:hover {
+    color: #f5cd79;
+}
+
+.figure-list__item_theme_deep-rose:hover {
+    color: #c44569;
+}

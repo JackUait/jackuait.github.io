@@ -1,0 +1,44 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features--bg {
+    background: $features-bg-color;
+    color: $secondary-color;
+}
+
+.features__header {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.features__subheader {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.features__header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 48em) {    
+    .features {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 5.3125em;
+    }
+}
+
+@media (min-width: 81.05em) {
+    .features--bg {
+        background: $features-bg-color url(../img/features_bg.png) no-repeat bottom center;
+    }
+}

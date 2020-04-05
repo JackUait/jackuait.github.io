@@ -1,0 +1,15 @@
+.ActionButton {
+	border: none;
+	background-color: #fdd01c;
+	box-shadow: 0px 7px 0px #caa616;
+	padding: 30px 45px;
+	font-size: 25px;
+	width: 240px;
+	cursor: pointer;
+}
+.ActionButton:active {
+	box-shadow: 0px 1px 0px #fdd01c;
+}
+.ActionButton:hover {
+	background-color: #f0c51a;
+}

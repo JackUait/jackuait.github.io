@@ -1,0 +1,46 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form__item {
+    width: 300px;
+    font-family: Asap, sans-serif;
+    font-size: 15px;
+    color: rgba($color: $second-font-color, $alpha: 0.8);
+    letter-spacing: 0.96px;
+    padding: 23px 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form__item_size_xs {
+    resize: none;
+    padding-bottom: 170px;
+}
+
+.contact-form__body {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 576px) {
+    .contact-form__item {
+        width: 360px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-form__item_size_xs {
+        width: 730px;
+    }
+    .contact-form__item {
+        margin-bottom: 30px;
+    }
+    .contact-form__item_first {
+        margin-right: 10px;
+    }
+    .contact-form__body {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
