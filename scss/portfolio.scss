@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // .portfolio {
 // 	max-height: 300px;
 // 	margin-bottom: 100px;
@@ -14,3 +15,21 @@
 		margin-top: 150px;
 	}
 }
+=======
+.portfolio {
+    min-height: 900px;
+    margin-bottom: 100px;
+}
+
+.portfolio__header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+    .portfolio__header {
+        margin-top: 150px;
+    }
+}
+>>>>>>> 369e416c7a3b2055bb18ab2e182f5ab0d042925d
