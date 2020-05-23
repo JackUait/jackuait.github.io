@@ -1,31 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.2a01c711.chunk.css",
-    "main.js": "./static/js/main.2391c86d.chunk.js",
-    "main.js.map": "./static/js/main.2391c86d.chunk.js.map",
+    "main.css": "./static/css/main.4ba7e454.chunk.css",
+    "main.js": "./static/js/main.0ac969e0.chunk.js",
+    "main.js.map": "./static/js/main.0ac969e0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.692de215.js",
     "runtime-main.js.map": "./static/js/runtime-main.692de215.js.map",
-    "static/js/2.d9bb75a9.chunk.js": "./static/js/2.d9bb75a9.chunk.js",
-    "static/js/2.d9bb75a9.chunk.js.map": "./static/js/2.d9bb75a9.chunk.js.map",
+    "static/js/2.fb45f75b.chunk.js": "./static/js/2.fb45f75b.chunk.js",
+    "static/js/2.fb45f75b.chunk.js.map": "./static/js/2.fb45f75b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b8eb960fff8e31e85916040558315040.js": "./precache-manifest.b8eb960fff8e31e85916040558315040.js",
+    "precache-manifest.fd1b51a5419240fada9c30a496d5cacd.js": "./precache-manifest.fd1b51a5419240fada9c30a496d5cacd.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.2a01c711.chunk.css.map": "./static/css/main.2a01c711.chunk.css.map",
-    "static/js/2.d9bb75a9.chunk.js.LICENSE.txt": "./static/js/2.d9bb75a9.chunk.js.LICENSE.txt",
-    "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.ade91f47.ttf",
-    "static/media/Montserrat-Light.ttf": "./static/media/Montserrat-Light.409c7f79.ttf",
-    "static/media/Montserrat-Medium.ttf": "./static/media/Montserrat-Medium.c8b6e083.ttf",
-    "static/media/Montserrat-Regular.ttf": "./static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/Roboto-Bold.ttf": "./static/media/Roboto-Bold.e07df86c.ttf",
-    "static/media/Roboto-Regular.ttf": "./static/media/Roboto-Regular.11eabca2.ttf",
+    "static/css/main.4ba7e454.chunk.css.map": "./static/css/main.4ba7e454.chunk.css.map",
+    "static/js/2.fb45f75b.chunk.js.LICENSE.txt": "./static/js/2.fb45f75b.chunk.js.LICENSE.txt",
     "static/media/Unrulyness.woff2": "./static/media/Unrulyness.9891f2a2.woff2",
     "static/media/Unrulyness.ttf": "./static/media/Unrulyness.a31b46eb.ttf",
     "static/media/Unrulyness.woff": "./static/media/Unrulyness.a994fe96.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.692de215.js",
-    "static/js/2.d9bb75a9.chunk.js",
-    "static/css/main.2a01c711.chunk.css",
-    "static/js/main.2391c86d.chunk.js"
+    "static/js/2.fb45f75b.chunk.js",
+    "static/css/main.4ba7e454.chunk.css",
+    "static/js/main.0ac969e0.chunk.js"
   ]
 }
