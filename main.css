@@ -1,0 +1,30 @@
+body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	background: #f1f1f1;
+	text-align: center;
+}
+
+a {
+	color: #4183cd;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+a:hover {
+	color: #3260cf;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
